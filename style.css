@@ -1,0 +1,613 @@
+html {
+    font-size: 10px !important;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    letter-spacing: 0.1rem;
+}
+a:hover , a {
+    text-decoration: none;
+}
+/**********************************HOME-PAGE****************************************/
+.TCI_site_header {
+    background-color: rgb(255,255,255);
+    padding: 1.25rem 0;
+}
+.TCI_site_header_NavBar {
+    display: none;
+}
+.TCI_site_header_IconSearch {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+}
+.fa-search {
+    color: rgb(0,0,0);
+}
+.fa-bars {
+    color: rgb(127,127,127);
+}
+.TCI_site_header_IconBars {
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+}
+.DropContent {
+    display: none;
+    position: absolute;
+    background-color: rgb(255,255,255);
+    width: 100vw;
+    margin-left: -1.5rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.DropContent a {
+    display: block;
+    color: rgb(0, 114, 211);
+    padding: 1rem;
+}
+.DropContent a:hover {
+    background-color: aliceblue;
+}
+.TCI_site_header_IconBars:hover .DropContent {
+    display: block;
+}
+.TCI_site_header a:hover , .TCI_site_header i:hover {
+    color: rgb(255,175,65);
+}
+.TCI_site_header_logo {
+    margin: auto;
+}
+.TCI_site_header_logo h1 {
+    font-size: 1.5rem;
+    font-weight:bolder;
+    margin: auto;
+    text-align: center;
+}
+.TCI_site_header_logo a {
+    color: rgb(0, 114, 211);
+}
+@media only screen and (min-width: 576px) {
+    header.container {
+        max-width: 100vw;
+    }
+    .TCI_site_header {
+        background-color: rgb(0, 114, 211);
+        padding: 2.5rem 0;
+    }
+    .TCI_site_header_NavBar {
+        display: block;
+    }
+    .TCI_site_header_IconBars , .TCI_site_header_IconSearch {
+        display: none;
+    }
+    .fa-search {
+        color: rgb(204,204,204);
+    }
+    .TCI_site_header_logo h1 {
+        font-size: 2.2rem;
+    }
+    .TCI_site_header_logo a {
+        color: rgb(255,255,255);
+    }
+    .TCI_site_header_NavBar a {
+        color: rgb(204,204,204);
+        font-size: 1.3rem;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+.TCI_site_banner img {
+    width: 100%;
+}
+.TCI_site_AboutUs {
+    margin: 4rem auto;
+}
+.fa-window-minimize {
+    color: rgb(0, 114, 211);
+    font-size: 2rem;
+}
+.TCI_site_AboutUs h2 {
+    font-weight: normal;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.TCI_site_AboutUs h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.TCI_site_AboutUs p {
+    margin-bottom: 2rem;
+}
+.TCI_site_AboutUs img {
+    width: 100%;
+}
+@media only screen and (min-width: 576px) {
+    .TCI_site_AboutUs h2 , .TCI_site_AboutUs p {
+        font-size: 1.3rem;
+    }
+    .TCI_site_AboutUs h3 {
+        font-size: 2.2rem;
+    }
+}
+.TCI_site_OurBusiness {
+    margin: 10rem auto 5rem auto;
+}
+.TCI_site_OurBusiness > div.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.TCI_site_OurBusinessL {
+    background-image: url(Image/About%20Us%202.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25rem; 
+}
+.TCI_site_OurBusinessR {
+    background-image: url(Image/Communication.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 25rem;
+    color: rgb(255,255,255);
+}
+.TCI_site_OurBusinessR h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(255,255,255);
+    margin-top: 1rem;
+}
+.TCI_site_OurBusinessR h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+.TCI_site_OurBusinessR p {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255,255,255);
+}
+.icon_hand {
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+.icon_book {
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    display: block;
+    margin: auto;
+}
+.TCI_site_OurBusiness i {
+    color: white; 
+}
+@media only screen and (min-width: 576px) {
+    .TCI_site_OurBusinessR {
+        background-size: 100% auto;
+        background-position: left center;
+        height: 35vw;
+    } 
+    .TCI_site_OurBusinessR h2 {
+        font-size: 1.3rem;
+        text-align:left;
+        margin: 3rem 4rem;
+    }
+    .TCI_site_OurBusinessR h3 {
+        font-size: 2.2rem;
+        text-align:left;
+        color: rgb(255,255,255);
+        margin-bottom: 1rem;
+    }
+    .TCI_site_OurBusinessR p {
+        font-size: 1.3rem;
+        text-align:left;
+        color: rgb(255,255,255);
+        margin-bottom: 1.5rem;
+    }
+    .icon_hand {
+        width: 5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+    .icon_book {
+        width: 5rem;
+        height: 4.5rem;
+        border-radius: 100%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .TCI_site_OurBusiness {
+        max-width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .TCI_site_OurBusinessL {
+        background-image: url(Image/About%20Us%202.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 31vw; 
+    }
+    .TCI_site_OurBusinessR {
+        background-image: url(Image/Communication.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 31vw;
+        color: rgb(255,255,255);
+    }
+    .TCI_site_OurBusinessR .row {
+        margin-left: -6vw;
+    }
+}
+.TCI_site_news {
+    margin-bottom: 15rem;
+}
+.TCI_site_news_content > div {
+    padding-bottom: 1.5rem;
+}
+.TCI_site_news h2 {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_site_news h3 {
+    font-size: 1.8rem;
+    text-shadow: 0.05rem 0.01rem;
+    margin-bottom: 1rem;
+}
+.TCI_site_news h4 {
+    font-size: 1.5rem;
+    text-shadow: 0.05rem 0.01rem;
+}
+.TCI_site_news a {
+    color: black;
+}
+.TCI_site_news_content div img {
+    width: 100%;
+}
+.TCI_site_news_content_text {
+    border: 0.01rem solid rgb(204,204,204);
+    margin-top: 0;
+    padding: 0.6rem;
+}
+.TCI_site_news_content_text a:hover {
+    color: grey;
+}
+@media only screen and (min-width: 576px) {
+    .TCI_site_news h3 , .TCI_site_news h4 {
+        font-size: 2.2rem;
+    }
+    .TCI_site_news p , .TCI_site_news a {
+        font-size: 1.3rem;
+    }
+}
+.TCI_site_contacts {
+    margin-bottom: 5rem;
+}
+.TCI_site_contactsL {
+    margin-bottom: 3rem;
+}
+.TCI_site_contacts h2 {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_site_contacts h3 {
+    font-size: 1.7rem;
+}
+.TCI_site_contacts_input_info input {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    height: 4.2rem;
+    border: 0.01rem solid rgb(204,204,204);
+    text-indent: 1rem;
+}
+.TCI_site_contacts_message textarea {
+    width: 100%;
+    margin: 1rem auto;
+    margin-bottom: 0;
+    border-radius: 0.5rem;
+    border: 0.01rem solid rgb(204,204,204);
+    text-indent: 1rem;
+    padding-top: 0.5rem;
+} 
+.TCI_site_contacts_submit input {
+    display: block;
+    font-size: 1.3em;
+    border-radius: 0.5rem;
+    background-color: rgb(255,180,0);
+    color: rgb(255,255,255);
+    padding: 1.5rem 3rem;
+    margin: auto;
+}
+.TCI_site_contactsR img {
+    width: 100%;
+}  
+@media only screen and (min-width: 576px) {
+    .TCI_site_contacts h2 {
+        font-size: 1.3rem;
+    }
+    .TCI_site_contacts h3 {
+        font-size: 2rem;
+    }
+    .TCI_site_contacts_message textarea {
+        height: 19rem;
+    }
+}
+.TCI_site_footer {
+    background-color: rgb(27, 25, 25);
+    color:rgb(255,255,255);
+}
+.TCI_site_footer_content {
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+}
+.TCI_site_footer a , .TCI_site_footer_content p {
+    color: rgb(189, 200, 189);
+}
+.TCI_site_footer a:hover {
+    color: rgb(255,175,65);
+}
+.TCI_site_footer h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.TCI_site_footer p {
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_site_footer li {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.TCI_site_footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+.TCI_site_footer_contentR input[type="email"] {
+    background-color: rgb(27, 25, 25);
+    border: none;
+    color: whitesmoke;
+    text-indent: 0.5rem;
+    outline: none;
+}
+.TCI_site_footer_contentR input[type="submit"] {
+    border-radius: 0.5rem;
+    float: right;
+}
+.TCI_site_footer_contentR form {
+    border-bottom: 0.1rem solid grey;
+    border-radius: 0.5rem;
+}
+@media only screen and (min-width: 576px) {
+    .TCI_site_footer {
+        max-width: 100vw;
+    }
+    .TCI_site_footer_content {
+        padding: 6rem 2.5rem 1.5rem 2.5rem;
+    }
+    .TCI_site_footer h2 {
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .TCI_site_footer p {
+        font-size: 1.3rem;
+        margin-bottom: 2.5rem;
+    }
+    .TCI_site_footer li {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .TCI_site_footer_content {
+    padding: 4rem 10vw 0 10vw;
+    }
+}
+.TCI_site_footer_copyright {
+    border-top: 0.1rem solid grey;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem; 
+}
+.TCI_site_footer_copyright p {
+    margin: auto;
+    font-size: 1.3rem;
+}
+/**********************************HOME-PAGE****************************************/
+
+/**********************************ABOUT-US****************************************/
+.TCI_about {
+    margin: 6rem auto;
+}
+.TCI_about h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    text-shadow: 0.05rem 0.01rem;
+}
+.TCI_about i {
+    display: block;
+    margin: auto;
+    width: 4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+.TCI_about_AboutUs p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_about_AboutUs_info div {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+.TCI_about_AboutUs_info div a {
+    color: rgb(255,175,65);
+}
+.TCI_about_MeetOurTeam_image {
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+.TCI_about_MeetOurTeam_name {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.TCI_about_MeetOurTeam_title {
+    text-align: center;
+    font-size: 1.3rem;
+}
+/**********************************ABOUT-US****************************************/
+
+/**********************************OUR-BUSINESS****************************************/
+.TCI_business {
+    margin: 6rem auto;
+}
+.TCI_business h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    text-shadow: 0.05rem 0.01rem;
+}
+.TCI_business h3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    
+}
+.TCI_business i {
+    display: block;
+    margin: auto;
+    width: 4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+.TCI_business p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_business img {
+    width: 50%;
+    margin-bottom: 3rem;
+}
+/**********************************OUR-BUSINESS****************************************/
+
+/**********************************CONTACTS****************************************/
+.TCI_contact {
+    margin-top: 2rem;
+}
+.TCI_contact h2 {
+    margin-top: 4rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-shadow: 0.05rem 0.01rem;
+}
+.TCI_contact i {
+    display: block;
+    margin: auto;
+    width: 4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+.TCI_contact p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_contact_ContactUs form {
+    font-size: 1.3rem;
+}
+.TCI_contact_ContactUs form div {
+    margin-bottom: 1rem;
+}
+.TCI_contact_ContactUs form input {
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 0.5rem;
+    height: 4.2rem;
+    border: 0.01rem solid rgb(204,204,204);
+    text-indent: 1rem;
+}
+.TCI_contact_ContactUs form textarea {
+    width: 100%;
+    font-size: 1.3em;
+    border-radius: 0.5rem;
+    border: 0.01rem solid rgb(204,204,204);
+    text-indent: 1rem;
+    padding-top: 0.5rem;
+} 
+.TCI_contact_ContactUs_submit input {
+    display: block;
+    border-radius: 0.5rem;
+    background-color: rgb(255,180,0);
+    color: rgb(255,255,255);
+    height: 4rem;
+}
+.TCI_contact_background {
+    
+}
+iframe {
+    width: 100%
+}
+/**********************************CONTACTS****************************************/
+
+/**********************************NEWS****************************************/
+.TCI_news {
+    margin: 6rem auto;
+}
+.TCI_news h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2.2rem;
+    text-shadow: 0.05rem 0.01rem;
+}
+.TCI_news h3 {
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    text-shadow: 0.05rem 0.01rem;
+}
+.TCI_news i.fa-window-minimize {
+    display: block;
+    margin: auto;
+    width: 4rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+}
+.TCI_news p {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+}
+.TCI_news img {
+    width: 100%;
+}
+.TCI_news_contentL , .TCI_news_contentC , .TCI_news_contentR {
+    padding-bottom: 1.5rem;
+}
+.TCI_news_content_text {
+    border: 0.01rem solid rgb(204,204,204);
+    margin-top: 0;
+    padding: 1rem;
+}
+.TCI_news a {
+    color: black;
+    font-size: 1.3rem;
+}
+.TCI_news a:hover {
+    color: grey;
+}
+.TCI_news_content_NewsPost td {
+    background-color: rgb(250,250,250);
+    border-bottom: 0.1rem solid rgb(204,204,204);
+}
+.TCI_news_content_NewsPost th , .TCI_news_content_NewsPost td {
+    padding: 1rem;
+}
+.TCI_news_content_NewsPost_title {
+    background-color: rgb(0,114,211);
+    color: rgb(255,255,255);
+    text-align: center;
+    font-size: 1.7rem;
+}
+/**********************************NEWS****************************************/
